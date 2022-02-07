@@ -1,0 +1,26 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musshal/bookshelf-api.git"
+  },
+  "author": "Musthafa Faishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musshal/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/musshal/bookshelf-api#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  }
+}
