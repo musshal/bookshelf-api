@@ -76,7 +76,7 @@ const addBookHandler = (request, h) => {
 
   const response = h.response({
     status: 'fail',
-    message: 'Buku gagal disimpan',
+    message: 'Buku gagal ditambahkan',
   });
 
   response.code(500);
